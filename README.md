@@ -32,6 +32,8 @@ df_temp_X.head()`
 
 `df_temp_X.describe()`
 
-Three major points from the two deliverable summary statistics: 
-- 
-- 
+Three major points from the two summary statistics deliverables: 
+- The mean temperature for June is higher at 74.9 degrees F, compared to the December mean of 71.0 degrees F. 
+- The month of June had a min temperautre of 64.0 F, and a maximum temperature of 85.0 F
+- The month of December had a min tempearture of 56.0 F , and a maximum temperature of 83.0 F
+
