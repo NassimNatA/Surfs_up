@@ -12,11 +12,8 @@ Summary statistics were produced for each respective month by the following step
 - Created Measurement table to retrieve the temperatures for the month of June:
 
 `temp_june = []
-
 temp_june = session.query(Measurement.date, Measurement.tobs).\
-
 filter(extract('month', Measurement.date) == 6).all()
-
 print(temp_june)`
 
 - Converted the  temperatures to a list:
@@ -28,7 +25,6 @@ print(temp_june)`
 
 
 `df_temp_X = pd.DataFrame(temp_X)
-
 df_temp_X.head()`
 
 - Created summary statistics for each month dataframe:
