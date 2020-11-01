@@ -11,22 +11,22 @@ Two deliverables were produced in this project:
 Summary statistics were produced for each respective month by the following steps and code: 
 - Created Measurement table to retrieve the temperatures for the month of June
 
-"temp_june = []
+`temp_june = []
 temp_june = session.query(Measurement.date, Measurement.tobs).\
 filter(extract('month', Measurement.date) == 6).all()
-print(temp_june)" 
+print(temp_june)`
 
 - Converted the  temperatures to a list.
 
-"list(temp_X)" 
+`list(temp_X)`
 
 - Created a DataFrame from the list of temperatures for each month.  
 
-"df_temp_X = pd.DataFrame(temp_X)
-df_temp_X.head()"
+`df_temp_X = pd.DataFrame(temp_X)
+df_temp_X.head()`
 
 - Created summary statistics for each month dataframe
-"df_temp_X.describe()"
+`df_temp_X.describe()`
 
 Three major points from the two deliverable summary statistics: 
 - 
